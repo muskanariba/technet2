@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2d2d2;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.forgetpassword{
+    color: #1877F2;
+
+}
+.newaccount{
+    width: 150px;
+    background-color: #42B72A;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.login{
+    width: 270px; 
+    background-color : #1877F2;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.container{
+   margin-top: 20px;
+    display: flex;
+}
+#area{
+    width: 270px;
+ height: 30px;
+ border-radius: 6px none;
+
+}
+h1{
+font-size: 70px;
+color: #1877F2;
+padding-right: 80px;
+margin-top: 50px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 80px;
+}
+.form
+{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    width: 300px;
+    border-radius: 6px;
+   
+}
+.form{
+    margin-top: 20px;
+}
+@media screen and (max-width:736px) {
+    .container{
+        display: block;
+        
+    }
+    
+}
